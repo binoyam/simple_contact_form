@@ -1,0 +1,38 @@
+:root {
+  --LightGreen: hsl(148, 38%, 91%);
+  --Green: hsl(169, 82%, 27%);
+  --Red: hsl(0, 66%, 56%);
+  --White: hsl(0, 0%, 100%);
+  --MediumGrey: hsl(186, 15%, 59%);
+  --DarkGrey: hsl(187, 24%, 22%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+body {
+  position: relative;
+}
+main {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+}
+.contact_form {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.attribution {
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translateX(-50%);
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
